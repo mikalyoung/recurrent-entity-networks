@@ -29,7 +29,7 @@ Task | EntNet (paper) | EntNet (repo)
 16: basic induction | 0.2 | 0
 17: positional reasoning | 0.5 | 1.7
 18: size reasoning | 0.3 | 1.5
-19: path finding | 2.3 | 41.9 ([#5](../../issues/5))
+19: path finding | 2.3 | 41.9
 20: agents motivation | 0 | 0.2
 **Failed Tasks** | 0 | ?
 **Mean Error** | 0.5 | ?
@@ -43,10 +43,5 @@ Task | EntNet (paper) | EntNet (repo)
 
 ## Dependencies
 
-- TensorFlow v0.11
+- TensorFlow v1.1
 
-## Thanks!
-
-- Thanks to Mikael Henaff for providing details about their paper over Thanksgiving break. :)
-- Thanks to Andy Zhang ([@zhangandyx](https://twitter.com/zhangandyx)) for helping me troubleshoot numerical instabilities.
-- Thanks to Mike Young for providing results on some of the longer tasks.
