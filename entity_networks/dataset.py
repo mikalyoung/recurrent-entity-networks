@@ -26,7 +26,7 @@ class Dataset(object):
 
     @property
     def steps_per_epoch(self):
-        return self.batch_size * self.examples_per_epoch
+        return self.examples_per_epoch // self.batch_size
 
     def get_input_fn(self, name, num_epochs, shuffle):
         def input_fn():
